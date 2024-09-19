@@ -53,10 +53,10 @@ class Trainer:
 			epoch_f_conv_outs = trained_conv_outs[0].permute(1,2,0).detach().cpu().numpy()
 			epoch_f_flat_outs = trained_flat_outs[0].permute(1,2,0).detach().cpu().numpy()
 			fig, axs = plt.subplots(2, 3, figsize=(8,8))
-			axs[0][0].imshow(Inp_0, cmap='gray'); axs[0][0].set_title('inps_0')
+			axs[0][0].imshow(Inp_0); axs[0][0].set_title('inps_0')
 			axs[0][1].imshow(epoch_0_conv_outs, cmap='gray'); axs[0][1].set_title('convs_0')
 			axs[0][2].imshow(epoch_0_flat_outs, cmap='gray'); axs[0][2].set_title('flats_0')
-			axs[1][0].imshow(Inp_f, cmap='gray'); axs[1][0].set_title('inps_f')
+			axs[1][0].imshow(Inp_f); axs[1][0].set_title('inps_f')
 			axs[1][1].imshow(epoch_f_conv_outs, cmap='gray'); axs[1][1].set_title('convs_f')
 			axs[1][2].imshow(epoch_f_flat_outs, cmap='gray'); axs[1][2].set_title('flats_f')
 			for i in range(2): 
