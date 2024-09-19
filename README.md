@@ -24,3 +24,4 @@ Segmentation Results after 5 epochs:
 
 ![Image Alt text](/logs/plots_5_epochs.png)
 
+
