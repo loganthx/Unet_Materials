@@ -51,7 +51,7 @@ class NET(nn.Module):
 		fc2 = self.relu(self.fc2(fc1)) # (b, 64) = (b, 1, 8, 8)
 		flat_out = fc2.view(-1, 1, 8, 8)
 		fc3 = self.fc3(fc2)
-		out = self.sigmoid(fc3)
+		out = fc3
 
 		return out, conv_out, self.sigmoid(flat_out)
 
