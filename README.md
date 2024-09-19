@@ -13,6 +13,5 @@ Our network can't predict above 65% yet, since temperatures around a relative bi
 
 Our current results on the materials (our main goal):
 
-# Proofs
+# Plots
 
-The results of our net learning on 'cats dogs' dataset for 10 epochs:
