@@ -15,5 +15,5 @@ Our current results on the materials (our main goal):
 
 # Plots
 
-![Image Alt text](/logs/img.jpg
+![Image Alt text](/logs/plots_30_epochs.png)
 
