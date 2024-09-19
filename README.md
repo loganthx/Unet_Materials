@@ -22,6 +22,6 @@ We see that our net makes good segmentation decisions on cats dogs dataset, but 
 
 Segmentation Results after 5 epochs:
 
-![Image Alt text](/logs/plots_5_epochs.png)
+![Image Alt text](/logs/auto_1_epoch.png)
 
 
