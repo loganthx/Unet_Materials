@@ -20,7 +20,7 @@ Our current results on the materials (our main goal):
 # Cats and Dogs Dataset
 We see that our net makes good segmentation decisions on cats dogs dataset, but in the current case the 'simplified' connected layers are detrimental to te accuracy improvement.
 
-Segmentation Results after 5 epochs:
+Segmentation Results training < 5 epochs:
 
 ![Image Alt text](/logs/auto_1_epoch.jpeg)
 
