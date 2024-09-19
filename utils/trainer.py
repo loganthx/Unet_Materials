@@ -9,7 +9,7 @@ class Trainer:
 		self.device = config['device']
 		self.net = net 
 
-	def train(self, dataloader, save=True, load=True, show_graphs=True):
+	def train(self, dataloader, save=True, load=False, show_graphs=True):
 		if load and 'weights.pt' in os.listdir():
 				self.net.load_state_dict(torch.load('weights.pt', weights_only=True))
 
