@@ -15,3 +15,5 @@ Our current results on the materials (our main goal):
 
 # Plots
 
+![Image Alt text](/logs/img.jpg
+
